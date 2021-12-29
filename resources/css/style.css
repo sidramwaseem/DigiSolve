@@ -39,6 +39,7 @@ html, body {
   padding: 10px 30px;
   border-radius: 50px;
   color: #fff;
+  display:inline-block;
 }
 
 .btn-full:link,
@@ -281,4 +282,138 @@ header {
 .partner-logo{
   width:65%;
   height: auto;
+}
+
+
+/**** TESTIMONIAL SECTION *****/
+
+.testimonials-section{
+  text-align: center;
+  background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.9)),url('/resources/css/img/testimonial-section-bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.testimonial-heading{
+  font-size:250%;
+  margin-bottom: 20px;
+  margin-top:150px;
+}
+
+.testimonials-box{
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+blockquote{
+  padding:2%;
+  font-style: italic;
+  line-height:145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+blockquote:before{
+  content:"\201C"; /* Adding the Double quote Character */
+  display:block;
+  font-size: 500%;
+  position:absolute;
+  left:-5px;
+  top:-5px;
+}
+
+cite{
+  display:block;
+  margin-top: 25px;
+  font-size:90%;
+}
+
+cite img{
+  border-radius: 50%;
+  height: 20%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/*** PACKAGES SECTION ***/
+
+.packages-section{
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.packages-heading{
+  color: black;
+  font-size:250%;
+  margin-bottom: 20px;
+  margin-top:150px;
+}
+
+.package-box{
+  background-color:#fff;
+  width:90%;
+  margin-bottom: 30px;
+  box-shadow:0 3px 2px #efefef;
+  text-align:left;
+}
+
+.package-box-heading{
+  font-size:150%;
+  color: #555;
+  margin-bottom: 50px;
+  font-weight:400;
+}
+
+.package-price{
+  color: #ed07b7;
+  font-size:300%;
+
+}
+
+.package-price span{
+  font-size:30%;
+  font-weight:500;
+}
+
+.package-para{
+  color: #555;
+  font-size: 80%;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.package-box div{
+  padding: 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.package-box ul{
+  list-style: none;
+}
+
+.small-icon{
+  color: #ed07b7;
+  font-size:120%;
+  display: inline-block;
+  margin-right: 10px;
+  width:30px;
+  text-align: center;
+}
+
+.package-box ul li{
+  color: #555;
+  padding: 5px 0;
+}
+
+.package-box div:last-child{ 
+  border: 0;
+  text-align: center;
+  padding-left: 0;
+}
+
+.package-box div:first-child{
+  background-color:#fcfcfc;
 }
