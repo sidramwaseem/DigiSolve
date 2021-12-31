@@ -34,7 +34,8 @@ html, body {
 /*** Buttons ***/
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
   text-decoration: none;
   padding: 10px 30px;
   border-radius: 50px;
@@ -43,11 +44,13 @@ html, body {
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
   background-color: #ed07b7;
 }
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active,
+input[type=submit]:hover{
   background-color: #ed07b78e ; 
 }
 
@@ -416,4 +419,127 @@ cite img{
 
 .package-box div:first-child{
   background-color:#fcfcfc;
+}
+
+
+/*** CONTACT FORM SECTION***/
+
+.contact-section{
+  text-align: center;
+}
+
+.contact-heading{
+  color: #000;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.contact-form{
+  text-align:left;
+  width:60%;
+  margin: 0 auto;
+  color: #555;
+}
+
+label{
+  font-weight:400;
+}
+
+input[type=text],
+input[type=email],textarea{
+  width: 100%;
+  padding:8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+input[type=checkbox]{
+  margin:10px 5px 10px 0px;
+}
+
+input[type=submit]{
+  border:0;
+}
+
+textarea{
+  height: 100px;
+}
+
+.newsletter{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+*:focus{
+  outline:none;
+}
+
+/*** FOOTER ***/
+footer{
+  background-color:#333;
+  padding: 50px;
+  font-size:80%;
+  color: #888;
+}
+
+.footer-nav li{
+  list-style: none;
+  display: inline-block;
+  margin-right:20px;
+} 
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  text-decoration:none;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+  color: rgb(233, 227, 227);
+}
+
+.social-links li{
+  list-style: none;
+  display: inline-block;
+  margin-left:20px;
+}
+
+.footer-nav{
+  float:left;
+}
+.social-links{
+  float:right;
+  font-size:160%;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-google-plus-g{
+  transition:color 0.3s;
+}
+
+
+.fa-facebook-f:hover{
+  color:#3b5998;
+}
+.fa-instagram:hover{
+  color:#c32aa3;
+}
+.fa-twitter:hover{
+  color: #1da1f2;
+}
+.fa-google-plus-g:hover{
+  color: #ea4335;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 50px;
+  line-height:1.5;
 }
