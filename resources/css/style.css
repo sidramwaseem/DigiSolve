@@ -9,7 +9,7 @@ html, body {
   color: #000;
   text-rendering: optimizeLegibility;
   font-size: 16px;
-  font-family: 'Work Sans','Arial',sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight:300;
 }
 
@@ -46,24 +46,24 @@ input[type=submit]{
 .btn-full:link,
 .btn-full:visited,
 input[type=submit]{
-  background-color: #ed07b7;
+  background-color: #6c757d;
 }
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]:hover{
-  background-color: #ed07b78e ; 
+  background-color: #495057; 
 }
 
 .btn-ghost:link,
 .btn-ghost:visited{
-  border: 2px solid #ed07b7;
+  border: 2px solid #6c757d;
   color: #000;
   font-weight: 500;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active{
-  background-color:#ed07b7;
+  background-color:#6c757d;
   color: #fff;
 }
 
@@ -137,7 +137,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active{
-  border-bottom: 3px solid #ed07b7;
+  border-bottom: 3px solid #6c757d;
 }
 
 /*** ABOUT SECTION ***/
@@ -154,7 +154,7 @@ header {
 }
 
 .about-para{
-  color: #555;
+  color: rgb(65, 65, 65);
   margin-bottom: 50px;
   font-size: 105%;
   font-weight: 400;
@@ -188,7 +188,7 @@ header {
 }
 .section-sub-heading{
   font-size:150%;
-  color: #555;
+  color: rgb(65, 65, 65);
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -196,7 +196,7 @@ header {
   display: block;
   width: 100px;
   height: 2px;
-  background-color:#ed07b7;
+  background-color:#6c757d;
   content: "";
   margin: 0px auto;
   margin-top: 30px;
@@ -252,7 +252,7 @@ header {
 
 .big-icon{
   font-size:250%;
-  color: #6920b0;
+  color: #495057; 
   display:block;
   margin-bottom: 30px;
 }
@@ -264,14 +264,14 @@ header {
 }
 
 .service-para{
-  color: #555;
+  color: rgb(65, 65, 65);
   font-size:90%;
   font-weight:400;
   margin-bottom: 20px;
 }
 
 .service-link{
-  color: #ed07b7;
+  color: #6c757d;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -365,13 +365,13 @@ cite img{
 
 .package-box-heading{
   font-size:150%;
-  color: #555;
+  color: rgb(65, 65, 65);
   margin-bottom: 50px;
   font-weight:400;
 }
 
 .package-price{
-  color: #ed07b7;
+  color: #343a40;
   font-size:300%;
 
 }
@@ -382,7 +382,7 @@ cite img{
 }
 
 .package-para{
-  color: #555;
+  color: rgb(65, 65, 65);
   font-size: 80%;
   margin-bottom: 10px;
   margin-bottom: 10px;
@@ -398,7 +398,7 @@ cite img{
 }
 
 .small-icon{
-  color: #ed07b7;
+  color: #343a40;
   font-size:120%;
   display: inline-block;
   margin-right: 10px;
@@ -407,7 +407,7 @@ cite img{
 }
 
 .package-box ul li{
-  color: #555;
+  color: rgb(65, 65, 65);
   padding: 5px 0;
 }
 
@@ -438,7 +438,7 @@ cite img{
   text-align:left;
   width:60%;
   margin: 0 auto;
-  color: #555;
+  color: rgb(65, 65, 65);
 }
 
 label{
