@@ -6,7 +6,7 @@ TECHNOLOGIES USED:
 - CSS
 - BOOTSTRAP
 
-Site Preview:
+<h1>Site Preview:</h1>
 https://zayfas.netlify.app/
 
 DESKTOP VIEW:
